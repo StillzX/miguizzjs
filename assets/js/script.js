@@ -1,0 +1,2 @@
+// Code by Miguizz.js
+var btn1=document.getElementById("btn1"),btn2=document.getElementById("btn2"),btn3=document.getElementById("btn3"),bgload=document.getElementById("bgload");btn1.addEventListener("click",()=>{bgload.style.display="flex",setInterval(()=>{bgload.style.display="none"},3e3)}),btn2.addEventListener("click",()=>{bgload.style.display="flex",setInterval(()=>{bgload.style.display="none"},3e3)}),btn3.addEventListener("click",()=>{bgload.style.display="flex",setInterval(()=>{bgload.style.display="none"},3e3)});
